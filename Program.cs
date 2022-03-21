@@ -1,3 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+static void  SayHello()
+{
+    Console.WriteLine("Hello, World!");
+}
 
-Console.WriteLine("Hello, World!");
+SayHello();
+
+static void  SayGoodbye()
+{
+    Console.WriteLine("Goodbye, cruel World!");
+}
+
+SayGoodbye();
